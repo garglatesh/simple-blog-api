@@ -21,7 +21,7 @@ class PostService
      */
     public function __construct(private PostRepository $postRepository)
     {
-        $this->postRepository = $postRepository;
+       
     }
 
     /**
